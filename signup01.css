@@ -1,0 +1,44 @@
+*{ padding: 0; margin: 0; text-decoration: none; list-style-type: none;}
+html{width: 100%; height: 100%;}
+body{
+    width: 100%; height: 100%;
+    background-color: black;
+    color: white;
+}
+.container{width: 100%; height: 100%; background-image: url(../img/login/sunrise-1756274_192001.png); overflow: hidden;}
+section{
+    position: relative; left: 30%;
+    width: 40%; height: 100%;
+}
+
+section img{
+    position: absolute;
+    width: 25%; left: 37%; top: 10%;
+}
+
+.textbox{
+    position: absolute;
+    width: 65%; left: 17%; top: 27%; height: 48%;
+    border: 2px solid white;
+    opacity: 0.7; overflow: scroll;
+    background-color: black;
+}
+
+.checkbox{
+    position: relative;
+    top: 78%; left: 35%;
+    opacity: 0.7;
+}
+.button{
+    position: relative;
+    height: 30%; left: 35%; top: 80%;
+    border: 0; outline: 0;
+}
+
+input[type=button]{
+    opacity: 0.6;
+    transition: 0.3s;
+}
+input[type=button]:hover{
+    opacity: 1;
+}

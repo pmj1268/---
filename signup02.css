@@ -1,0 +1,180 @@
+*{ padding: 0; margin: 0; text-decoration: none; list-style-type: none;}
+html{width: 100%; height: 100%;}
+body{
+    width: 100%; height: 100%;
+    background-color: black;
+    color: white;
+}
+.container{width: 100%; height: 100%; background-image: url(../img/login/sunrise-1756274_192001.png); overflow: hidden;}
+
+section{
+    position: relative; left: 25%;
+    width: 50%; height: 100%;
+    /* border: 1px solid white; */
+}
+img{
+    position: relative; left: 5%; top: 45px;
+    width: 2%;
+}
+
+h1{font-size: 3em; opacity: 0.9; position: relative; left: 35%; top: 6%;}
+.h1{opacity: 0.9; position: relative; left: 42%; top: 13%;}
+.h2{opacity: 0.9; position: relative; left: 42%; top: 35%;}
+
+
+/* 아이디 비밀번호 */
+
+
+label{
+    font-size: 20px;
+    opacity: 0.9; font-weight: bolder;
+}
+
+.id{
+    position: relative;
+    top: 18%; left: 34.5%;
+}
+.id input[type=text]{
+    border: 0; height: 30px; 
+    background-color: rgba(0, 0, 0, 0); 
+    border-bottom: 1px solid white; 
+    width: 220px; padding-bottom: 5px; padding-left: 10px;
+    color: white; font-size: 20px;
+    box-shadow: none; outline: none; opacity: 0.9;
+}
+
+.pw{
+    position: relative;
+    top: 20%; left: 33%;
+}
+.pw input[type=password]{
+    border: 0; height: 30px; 
+    background-color: rgba(0, 0, 0, 0); 
+    border-bottom: 1px solid white; 
+    width: 220px; padding-bottom: 5px; padding-left: 10px;
+    color: white; font-size: 20px;
+    box-shadow: none; outline: none; opacity: 0.9;
+}
+.pw2{
+    position: relative;
+    top: 22%; left: 33%;
+}
+.pw2 input[type=password]{
+    border: 0; height: 30px; 
+    background-color: rgba(0, 0, 0, 0); 
+    border-bottom: 1px solid white; 
+    width: 220px; padding-bottom: 5px; padding-left: 10px;
+    color: white; font-size: 20px;
+    box-shadow: none; outline: none; opacity: 0.9;
+}
+.text01{font-size: 13px; font-weight: normal; padding-left: 15%;}
+
+
+.hr{position: relative; width: 50%; left: 25%; top: 30%; opacity: 0.5;}
+
+
+
+/* 개인정보 */
+
+.name{
+    position: relative;
+    top: 36%; left: 33%;
+}
+.name input[type=text]{
+    border: 0; height: 30px; 
+    background-color: rgba(0, 0, 0, 0); 
+    border-bottom: 1px solid white; 
+    width: 220px; padding-bottom: 5px; padding-left: 10px;
+    color: white; font-size: 20px;
+    box-shadow: none; outline: none; opacity: 0.9;
+}
+
+.number label{padding-right: 10px;}
+
+.number{
+    position: relative; left: 28.8%; top: 38%; 
+}
+.number input[type=text]{
+    position: relative; top: -3px;
+    width: 40px; height: 25px; font-size: 15px;
+    padding-left: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: none; outline: none; opacity: 0.9; border: 0;
+    border-bottom: 1px solid white;
+    color: white;
+}
+.number span{
+    position: relative;
+    font-size: 20px;
+}
+
+
+.juso{
+    position: relative; top: 40%; left: 33%;
+    color: white;
+}
+.juso2{
+    position: relative; top: 40%; left: 33%;
+    color: white;
+}
+.juso input[type=text]{
+    width: 320px; height: 25px; font-size: 17px;
+    padding-left: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: none; outline: none; opacity: 0.9; border: 0;
+    border-bottom: 1px solid white; color: white; padding-bottom: 10px;
+}
+.juso2 input[type=text]{
+    position: relative; left: 6.2%; top: 10px;
+    width: 320px; height: 25px; font-size: 15px;
+    padding-left: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: none; outline: none; opacity: 0.9; border: 0;
+    border-bottom: 1px solid white;padding-bottom: 10px;
+    color: white;
+}
+
+
+.email{
+    position: relative; top: 43%; left: 31%;
+    color: white;
+}
+.email input[type=text]{
+    width: 140px; height: 25px;
+    padding-left: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: none; outline: none; opacity: 0.9; border: 0;
+    border-bottom: 1px solid white; color: white;
+    font-size: 15px;
+}
+
+/* 버튼 */
+
+.button01{
+    position: relative; left: 2%;
+    width: 8%; height: 25px;
+    border: 0; box-shadow: none; outline: none;
+    background-color: #0566b0; color: white;
+    opacity: 1;
+}
+.button02{
+    position: relative; left: 35%; top: 50%;
+}
+.button02 input[type=button]:hover{
+    transition: 0.3s;
+    opacity: 1;
+}
+.button02 input[type=button]{
+    width: 25%; height: 40px;
+    font-size: 15px;
+    color: white;
+    background-color: #0566b0;
+    outline: none; border: none; opacity: 0.5;
+}
+.button03{
+    position: absolute; left: 32.5%; top: -2%;
+    width: 8%; height: 25px;
+    border: 0; box-shadow: none; outline: none;
+    background-color: #0566b0; color: white;
+    opacity: 1;
+}

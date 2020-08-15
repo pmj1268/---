@@ -1,0 +1,376 @@
+*{
+    text-decoration: none;
+}
+html{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    overflow: hidden;
+    /* background-color: black; */
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+/*-----------------*/
+
+
+
+body div div ul li{
+    list-style-type: none;
+}
+body div div ul li a{
+    text-decoration: none;
+    color: white;
+    opacity: 0.6;
+}
+#MainC1{
+    width: 15%;
+    height: 100%;
+    /* background-color: lightslategray; */
+    float: left;
+}
+.graymenu{
+    z-index: -1;
+    position: fixed;
+    width: 15%;
+    height: 100%;
+    /* background: gray; */
+    opacity: 0.6;
+}
+.logo{
+    z-index: 6;
+    width: 8rem;
+    display: block;
+    margin: 0 auto;
+    margin-top: 25%;
+}
+body div div ul{
+    float: left;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+#MainC1 a{z-index: 10;}
+
+.ul1{
+    position: relative;
+    z-index: 6;
+    margin: 0 auto;
+    width: 100%;
+    font-size: 32px;
+    font-family: 'Russo One', sans-serif;
+    line-height: 78px;
+    margin-top: 50%;
+    letter-spacing: 2px;
+}
+
+.ul101{
+    z-index: 6;
+    position: relative;
+    margin: 0 auto;
+    width: 100%; top: 96px;
+    font-size: 20px;
+    line-height: 45px;
+    letter-spacing: 2px;
+}
+/* 효과 */
+.ul1 li:hover{
+    transition: 0.4s;}
+.ul1 li a:hover{
+    transition: 0.4s;
+    color: white;
+
+    opacity: 1;
+}
+.ul2 li a:hover{
+    transition: 0.4s;
+    color: white;
+
+    opacity: 1;
+}
+.ul101 li:hover{
+    transition: 0.4s;
+    color: white;
+    opacity: 1;
+}
+.ul101 li a:hover{
+    transition: 0.4s;
+    color: white;
+    opacity: 1;
+}
+.ul1 li a{
+    padding-left: 30%; padding-right: 30%; padding-top: 20px; padding-bottom: 20px;
+}
+.ul101 li a{
+    padding-left: 30%; padding-right: 30%; padding-top: 20px; padding-bottom: 20px;
+}
+.ul2{
+    z-index: 6;
+    width: 15%;
+    position: absolute; left: 0; bottom: 10%;
+     text-align: center; 
+}
+.ul2 li{
+    /* z-index: 6; */
+    font-size: 20px;
+}
+.ul2 li:nth-child(2){position: relative; top: 18px;}
+
+
+/*가로로 스크롤 */
+
+
+#MainC2{
+    position: absolute;
+    left: 15%;
+    width: 86%;
+    height: 100%;
+}
+
+
+
+
+/*  메뉴 효과 */
+.ul1 li:hover{
+    transition: 0.4s;
+    /* background-color: white; */
+}
+.ul2 li:hover{
+    transition: 0.4s;
+    /* background-color: white; */
+}
+
+
+.bgi{
+    z-index: -10;
+    position: fixed;
+    width: 100%; height: 100%;
+    background-image: url(../img/event/stars-2537469_1920.jpg);
+}
+
+/* 메인 */
+
+#MainC2{
+    position: absolute;
+    left: 15%;
+    width: 86%;
+    height: 100%;
+}
+
+.container2{
+    width: 100%; height: 100%;
+}
+
+
+
+
+
+/*-------------------------------------------------------------------------*/
+
+
+h1{
+    position: relative;
+    left: 15%; font-size: 80px;
+    color: #bec0d6; margin: 0; top: 8%;
+    font-family: 'Do Hyeon', sans-serif; letter-spacing: 3px;
+}
+
+.button{
+    /* border: 1px solid red; */
+    width: 70%; height: 8%;
+    position: absolute; left: 15%; top: 20%;
+}
+.bbb{
+    width: 100%; height: 100%;
+    position: absolute;
+    border: 3px solid #949ad7;
+    background-color: #2a2e56;
+    opacity: 0.3;
+    border-radius: 5px;
+}
+
+
+.button ul{width: 100%; height: 100%;}
+.btn1{
+    position: relative;
+    width: 13%; height: 60%;
+    /* border: 1px solid white;  */
+    top: 23%; left: 3%;
+    border-radius: 10px; float: left;
+    background-color: #224c8d;font-size: 17px;
+    color: whitesmoke; outline: none; border: 0;
+}
+
+.btn2{
+    position: relative;
+    width: 13%; height: 60%;
+    /* border: 1px solid lightblue; */
+    background-color: #224c8d; 
+    top: 23%; left: -33%; color: whitesmoke; font-size: 17px;
+    border-radius: 10px; outline: 0; border: 0;
+    opacity: 0.5; transition: 0.3s;
+}
+.btn2:hover{
+    opacity:1;
+}
+
+.icon{
+    width: 100%; height: 100%;
+}
+.icon li{
+    position: relative;
+    /* border: 1px solid yellow; */
+    width: 4%; height: 50%;
+    float: left; top: -75%; left: 51%; 
+    margin-right: 15px;
+    /* opacity: 0.7; */
+}
+.icon span{color: whitesmoke; position: absolute; top: 40%; left: 46%;}
+.icon img{
+    width: 85%;
+}
+
+
+
+
+/*-------------------------------------------*/
+
+.items{
+    position: absolute;
+    /* border: 1px solid white; */
+    width: 70%; height: 60%;
+    top: 30.5%; left: 15%;
+}
+.it1{
+    opacity: 0.9; transition: 0.2s;
+    cursor: pointer;
+    /* border: 1px solid white; */
+    position: relative;
+    width: 30%; height: 60%;
+    float: left; overflow: hidden;
+    border-radius: 10px;
+}
+.it1:hover{
+    opacity: 1;
+}
+.bg1{
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    /* background-color: lightgoldenrodyellow; */
+}
+.bg1 img{width: 200%;}
+.bg2 img{width: 100%; height: 100%; position: relative;}
+.txt1{
+    position: absolute;
+    width: 100%; height: 40%;
+    background-color: #20254e; top: 60%;
+}
+.txt1 img{ width: 10%; position: relative; left: 5%; top: 10%;}
+.txt2 img{ width: 10%; position: relative; left: 5%; top: 10%;}
+
+
+
+.it2{
+    opacity: 0.9; transition: 0.2s;
+    cursor: pointer;
+    /* border: 1px solid blue; */
+    position: relative;overflow: hidden;
+    width: 30%; height: 60%; left: 2%; margin-left: 2%;
+    border-radius: 10px; margin-right: 2%;
+}
+.it2:hover{
+    opacity: 1;
+}
+.bg2{
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    /* background-color: #ffffff; */
+}
+.txt2{
+    position: absolute;
+    width: 100%; height: 40%;
+    background-color: #20254e; top: 60%;
+}
+
+
+
+.txt1 h1{position: absolute; font-size: 18px; color: whitesmoke; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; letter-spacing: -1px; top: 14.5%; left: 18%;}
+.txt2 h1{position: absolute; font-size: 18px; color: whitesmoke; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; letter-spacing: 0px; top: 14.5%; left: 18%;}
+
+.txt1 a{position: absolute; color: #d0d3f4; top: 40%; font-size: 13px; line-height: 19px; left: 7%;}
+.txt2 a{position: absolute; color: #d0d3f4; top: 40%; font-size: 13px; line-height: 19px; left: 7%;}
+.txt1 span{position: absolute; color: #d2d6ff; bottom: 10%; font-size: 13px; left: 7%;}
+
+
+
+
+
+
+/*-------------------------------------------*/
+
+
+
+
+
+footer{
+    position: absolute;
+    width: 70%; height: 20%;
+    /* border: 1px solid red; */
+    bottom: -2%; left: 23%;
+}
+footer article{
+    position: relative;
+    /* border: 1px solid blue; */
+    width: 13%; height: 100%;
+    float: left;
+}
+footer article a img{
+    position: relative;
+    width: 95%; top: 10%;
+}
+
+.ul001{
+    position: relative;
+    /* border: 1px solid chartreuse; */
+    width: 80%; height: 100%;
+}
+.ul001 ul{
+    position: relative;
+    top: 10%; left: 2%;
+}
+.ul001 ul a li{
+    position: relative; top: 5px;
+    color: #ffffff;float: left; 
+    font-size: 16px; 
+    /* font-weight: bold; */
+    border: 1px solid #ffffff;
+    padding-right: 25px; padding-left: 25px;
+    border-top: 0; border-left: 0; border-bottom: 0;
+    opacity: 0.5;
+    transition: 0.2s;
+}
+.ul001 p{
+    position: absolute;
+    color: white; font-size: 14px;
+    top: 21%; left: 4.7%; color: #777777;
+}
+
+
+.ul001 ul a li:hover{
+    opacity: 0.9;
+}

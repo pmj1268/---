@@ -1,0 +1,39 @@
+*{ padding: 0; margin: 0; text-decoration: none; list-style-type: none;}
+html{width: 100%; height: 100%;}
+body{
+    width: 100%; height: 100%;
+    background-color: black;
+    color: white;
+}
+.container{width: 100%; height: 100%; background-image: url(../img/login/sunrise-1756274_192001.png); overflow: hidden;}
+
+section{
+    position: relative; left: 25%;
+    width: 50%; height: 100%;
+    /* border: 1px solid white; */
+}
+
+h1{
+    position: relative; left: 11%; top: 40%;
+    font-size: 4rem;
+}
+p{
+    position: relative; left: 31%; top: 42%;
+    font-size: 1em;
+}
+
+.button{
+    position: relative;
+    left: 35%; top: 45%;
+}
+.button input[type=button]:hover{
+    opacity: 1;transition: 0.3s;
+}
+.button input[type=button]{
+    width: 25%; height: 40px;
+    font-size: 15px;
+    color: white;
+    background-color: #0566b0;
+    outline: none; border: none; 
+    opacity: 0.7;transition: 0.3s;
+}

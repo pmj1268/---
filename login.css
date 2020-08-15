@@ -1,0 +1,136 @@
+*{
+    padding: 0; margin: 0;
+    text-decoration: none;
+}
+html{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+body{padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    overflow: hidden;
+    background-color: black;}
+
+.container{width: 100%; height: 100%; background-image: url(../img/login/sunrise-1756274_192001.png);}
+
+section{
+    z-index: 2;
+    position: relative;
+    width: 30%; height: 100%;
+    left: 35%;
+
+    /* border: 1px solid red; border-top: 0px; border-bottom: 0px; */
+}
+
+
+
+
+.d1{
+    width: 35%; height: 13%;
+    position: relative;
+    left: 33%; top: 10%;
+    color: black;
+}
+.d2{
+    width: 50%; height: 18%;
+    position: relative;
+    left: 25%;top: 14%;
+}
+.d3{
+    width: 40%; height: 3%;
+    position: relative;
+    left: 35%;top: 14%;
+    text-align: right;
+    color: white;
+    opacity: 0.7;
+    font-size: 13px;
+    
+}
+.d4{
+    width: 50%; height: 30px;
+    position: relative; top: 17%;
+}
+.d4 div:nth-child(1){
+    border: 0.5px solid white; opacity: 0.3;
+    position: relative;
+    width: 40%; left: 140px;margin: 0px;
+}
+.d4 div:nth-child(2){
+    border: 0.5px solid white; opacity: 0.3;
+    position: relative;
+    width: 40%; left: 110%; top: -6%; margin: 0px;
+}
+.d4 span{color: white; font-size: 14px; opacity: 0.5; position: absolute; left: 95%; top: -25%; width: 20%;}
+
+.d1 img{
+    position: absolute; width: 100%; padding-left: 0%;
+}
+.d2 div{ height: 20%; margin-bottom: 3%;}
+
+.hr{
+    position: relative; 
+    top: 17%;
+}
+.d3 ul li{
+    list-style-type: none; 
+    float: right; padding-left: 2%;
+}
+.d3 ul li a{ color: white;}
+
+/* 아이콘 */
+.icon{
+    position: relative; top: 16%; left: 25%;
+    width: 50%; height: 6%;
+}
+.icon ul{position: relative; left: 10%; top: 10%;}
+.icon li{float: left;}
+.icon li i{color: white; font-size: 40px; padding-left: 30px; opacity: 0.5;}
+.icon li i:hover{opacity: 0.5; transition: 0.5s; opacity: 1;}
+
+
+
+
+
+.d5{
+    width: 100%; height: 5%;
+    text-align: center;
+    position: relative; top: 37%;
+}
+.ul1{list-style-type: none; color: white;}
+.ul1 a{list-style-type: none; color: white; float: left; opacity: 0.5;}
+.ul1 a li{float: left; font-size: 14px; text-align: center; padding-left: 20px;}
+.ul1 a:nth-child(1){margin-left: 15%;}
+.ul1 a:hover{opacity: 1; transition: 0.5s;}
+
+.ul2{list-style-type: none; color: white; position: relative; top: 5%;}
+.ul2 a{list-style-type: none; color: white; float: left;opacity: 0.5;}
+.ul2 a li{float: left; font-size: 14px; text-align: center; padding-left: 20px;}
+.ul2 a:nth-child(1){margin-left: 27%; }
+.ul2 a:hover{opacity: 1; transition: 0.5s;}
+
+
+.d6{
+    width: 70%; padding-top: 15px;
+    border-top: 1px solid white;
+    position: relative; top: 38%; left: 18%;
+    color:white; opacity: 0.5; font-size: 10px;
+}
+input[type=button]{
+    opacity: 0.8;
+    transition: 0.3s;
+}
+input[type=button]:hover{
+    opacity: 1;
+}
+
+
+
+
+
+/*------------------------------      모바일      ------------------------------*/
+

@@ -1,0 +1,292 @@
+
+html{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    overflow: hidden;
+    background-color: black;
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+/*-----------------*/
+
+
+
+body div div ul li{
+    list-style-type: none;
+}
+body div div ul li a{
+    text-decoration: none;
+    color: white;
+    opacity: 0.6;
+}
+#MainC1{
+    width: 15%;
+    height: 100%;
+    /* background-color: lightslategray; */
+    float: left;
+}
+.graymenu{
+    z-index: -1;
+    position: fixed;
+    width: 15%;
+    height: 100%;
+    /* background: gray; */
+    opacity: 0.6;
+}
+.logo{
+    z-index: 6;
+    width: 8rem;
+    display: block;
+    margin: 0 auto;
+    margin-top: 25%;
+}
+body div div ul{
+    float: left;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+#MainC1 a{z-index: 10;}
+
+.ul1{
+    position: relative;
+    z-index: 6;
+    margin: 0 auto;
+    width: 100%;
+    font-size: 32px;
+    font-family: 'Russo One', sans-serif;
+    line-height: 78px;
+    margin-top: 50%;
+    letter-spacing: 2px;
+}
+
+.ul101{
+    z-index: 6;
+    position: relative;
+    margin: 0 auto;
+    width: 100%; top: 96px;
+    font-size: 20px;
+    line-height: 45px;
+    letter-spacing: 2px;
+}
+/* 효과 */
+.ul1 li:hover{
+    transition: 0.4s;}
+.ul1 li a:hover{
+    transition: 0.4s;
+    color: white;
+
+    opacity: 1;
+}
+.ul2 li a:hover{
+    transition: 0.4s;
+    color: white;
+
+    opacity: 1;
+}
+.ul101 li:hover{
+    transition: 0.4s;
+    color: white;
+    opacity: 1;
+}
+.ul101 li a:hover{
+    transition: 0.4s;
+    color: white;
+    opacity: 1;
+}
+.ul1 li a{
+    padding-left: 30%; padding-right: 30%; padding-top: 20px; padding-bottom: 20px;
+}
+.ul101 li a{
+    padding-left: 30%; padding-right: 30%; padding-top: 20px; padding-bottom: 20px;
+}
+.ul2{
+    z-index: 6;
+    width: 15%;
+    position: absolute; left: 0; bottom: 10%;
+     text-align: center; 
+}
+.ul2 li{
+    /* z-index: 6; */
+    font-size: 20px;
+}
+.ul2 li:nth-child(2){position: relative; top: 18px;}
+
+
+/*가로로 스크롤 */
+
+
+#MainC2{
+    position: absolute;
+    left: 15%;
+    width: 86%;
+    height: 100%;
+}
+
+
+
+
+/*  메뉴 효과 */
+.ul1 li:hover{
+    transition: 0.4s;
+    /* background-color: white; */
+}
+.ul2 li:hover{
+    transition: 0.4s;
+    /* background-color: white; */
+}
+
+
+
+
+/*  슬라이드 제밞ㅁㅁㅁㅁㅁ  */
+
+.Slide{
+    position: absolute;
+    left: 15%;
+    width: 85%;
+    height: 100%;
+    overflow: hidden;
+}
+.box{
+    position: absolute;
+    width: 100%; height: 100%;
+    overflow: hidden;
+}
+
+ul, li{list-style: none;}
+.box ul{
+    position: absolute;
+    height: 100%; width: 100%;
+}
+.box li{
+    position: absolute; 
+    width: 100%; height:100%;
+    left: 0; right: 0; top: 0; bottom: 0; padding: 0; margin: 0;
+    opacity: 0; animation: fade 8s infinite;
+}
+.box li img{
+    position: relative;
+    vertical-align: center; left: 0%; width: 100%;  height: 100%;
+}
+.box li:nth-child(1){animation-delay: 0s;}
+.box li:nth-child(2){animation-delay: 2s;}
+.box li:nth-child(3){animation-delay: 4s;}
+.box li:nth-child(4){animation-delay: 6s;}
+
+@keyframes fade{
+    0% {opacity:0;}
+      5% {opacity:1;}
+      25% {opacity:1;}
+      30% {opacity:0;}
+      100% {opacity:0;}
+}
+
+.phoneimg{display: none;}
+
+
+
+/*------------------------------      모바일      ------------------------------*/
+
+
+
+@media (min-width:320px) and (max-width : 400px){
+    .container{width: 100%; height: 100%; overflow: scroll;}
+    #MainC1{
+        position: fixed;
+        width: 100%; height: 20%;
+    }
+    #MainC1 img{position: absolute; width: 20%; left: 40%; bottom: 60px;}
+    .ul1 a{
+        position: relative;
+        top: -20px; color: black;
+    }
+    .ul1 li{
+        position: relative; float: left; font-size: 20px; margin-left: 15px; margin-right: 16px;
+     height: 50px; 
+    }
+    .ul1{background-color: #e4e4e4;}
+
+    .ul101 li{position:absolute; float: left; right: 0; font-size: 13px; font-family: 'Lato', sans-serif;}
+    .ul101 li:nth-child(1){position: absolute; left: 230px; top: 6px;}
+    .ul101 li:nth-child(2){position: absolute; left: 300px; top: 6px;}
+
+
+    .ul2{ position: absolute; width: 35%;}
+    .ul2 li{position: absolute; font-size: 13px; top: -110px; }
+    .ul2 li:nth-child(1){position: absolute;}
+    .ul2 li:nth-child(2){position: absolute; left: 70px;}
+
+    .box{display: none;}
+
+    .phoneimg{
+        position: relative; top: 25%;
+        width: 100%; height: 50px; display: block;
+    }
+    .phoneimg img{position: relative; width: 100%; height: auto; }
+    .phoneimg li:nth-child(2){position: relative; top: 40px;}
+    .phoneimg li:nth-child(3){position: relative; top: 80px;}
+    .phoneimg li:nth-child(4){position: relative; top: 120px; padding-bottom: 40px;}
+
+}
+
+
+
+
+@media (min-width:401px) and (max-width:900px){
+    .container{width: 100%; height: 100%; overflow: scroll;}
+    #MainC1{
+        position: fixed;
+        width: 100%; height: 20%;
+        /* border: 1px solid white; */
+    }
+    #MainC1 img{position: absolute; width: 20%; left: 40%; top: -20px;}
+   
+    .ul1 a{
+        position: relative;
+        top: -20px; color: black;
+    }
+    .ul1 li{
+        position: relative; float: left; font-size: 20px; margin-left: 23px; margin-right: 20px;
+     height: 50px; 
+    }
+    .ul1{background-color: #e4e4e4;}
+
+    .ul101 li{position:absolute; float: left; right: 0; font-size: 13px; }
+    .ul101 li:nth-child(1){position: absolute; left: 230px; top: 10px;}
+    .ul101 li:nth-child(2){position: absolute; left: 320px; top: 10px;}
+
+
+    .ul2{
+        position: absolute; width: 35%;
+    }
+    .ul2 li{position: absolute; font-size: 13px; top: -144px}
+    .ul2 li:nth-child(1){position: absolute;}
+    .ul2 li:nth-child(2){position: absolute; left: 70px;}
+
+    .box{display: none;}
+
+    .phoneimg{
+        position: relative; top: 25%;
+        width: 100%; height: 50px; display: block;
+    }
+    .phoneimg img{position: relative; width: 100%; height: auto; }
+    .phoneimg li:nth-child(2){position: relative; top: 40px;}
+    .phoneimg li:nth-child(3){position: relative; top: 80px;}
+    .phoneimg li:nth-child(4){position: relative; top: 120px; padding-bottom: 40px;}
+}

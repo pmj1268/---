@@ -1,0 +1,821 @@
+
+*{
+    text-decoration: none;
+}
+html{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    /* overflow: hidden; */
+    background-color: black;
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+/*-----------------*/
+
+
+
+body div div ul li{
+    list-style-type: none;
+}
+body div div ul li a{
+    text-decoration: none;
+    color: #404040;
+    opacity: 0.6;
+}
+#MainC1{
+    width: 15%;
+    height: 100%;
+    /* background-color: lightslategray; */
+    float: left;
+    position: fixed;
+}
+.graymenu{
+    z-index: -1;
+    position: fixed;
+    width: 15%;
+    height: 100%;
+    /* background: gray; */
+    opacity: 0.6;
+}
+.logo{
+    position: relative;
+    z-index: 10;
+    width: 8rem;
+    display: block;
+    margin: 0 auto;
+    margin-top: 25%;
+}
+body div div ul{
+    float: left;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+#MainC1 a{z-index: 10;}
+
+.ul1{
+    position: relative;
+    z-index: 6;
+    margin: 0 auto;
+    width: 100%;
+    font-size: 32px;
+    font-family: 'Russo One', sans-serif;
+    line-height: 78px;
+    margin-top: 50%;
+    letter-spacing: 2px;
+}
+
+.ul101{
+    z-index: 6;
+    position: relative;
+    margin: 0 auto;
+    width: 100%; top: 96px;
+    font-size: 20px;
+    line-height: 45px;
+    letter-spacing: 2px;
+}
+/* 효과 */
+.ul1 li:hover{
+    transition: 0.2s;
+    color: #000000;
+}
+.ul1 li a:hover{
+    transition: 0.2s;
+    color: #000000;
+    opacity: 1;
+}
+.ul2 li a:hover{
+    transition: 0.2s;
+    color: #000000;
+    opacity: 1;
+}
+.ul101 li:hover{
+    transition: 0.2s;
+    color: #000000;
+    opacity: 1;
+}
+.ul101 a:hover{
+    transition: 0.2s;
+    color: #000000;
+    opacity: 1;
+}
+.ul1 li a{
+    padding-left: 30%; padding-right: 30%; padding-top: 20px; padding-bottom: 20px;
+}
+.ul101 li a{
+    padding-left: 30%; padding-right: 30%; padding-top: 20px; padding-bottom: 20px;
+}
+.ul2{
+    z-index: 6;
+    width: 15%;
+    position:  fixed; left: 0; bottom: 10%;
+     text-align: center; 
+}
+.ul2 li{
+    /* z-index: 6; */
+    font-size: 20px;
+}
+.ul2 li:nth-child(2){position: relative; top: 18px;}
+
+
+/*가로로 스크롤 */
+
+
+#MainC2{
+    position: absolute;
+    left: 15%;
+    width: 86%;
+    height: 100%;
+}
+
+
+
+
+/*  메뉴 효과 */
+.ul1 li:hover{
+    transition: 0.4s;
+    color: #000000;
+    /* background-color: white; */
+}
+.ul2 li:hover{
+    transition: 0.4s;
+    color: #000000;
+    /* background-color: white; */
+}
+
+
+
+
+
+
+/*-----main-------*/
+
+.MainC2{
+    position: absolute;
+    left: 15%;
+    width: 85%;
+    height: 100%;
+}
+
+
+.bgi{
+    position: fixed;
+    width: 100%; height: 100%;
+    opacity: 0.8;
+}
+
+
+/*------------------------------     태그       ------------------------------*/
+.tag1{
+    position: relative; top: 5%;
+    width: 100%; height: 90px;
+}
+.tag1 span{
+    position: relative; top: 35%; left: 10%;
+    font-size: 18px; color: white; background-color: royalblue;
+    width: 100%; height: 200px; padding: 20px; padding-left: 30px; padding-right: 30px;
+}
+.tag2{
+    position: relative; top: 32%;
+    width: 100%; height: 90px;
+    
+}
+.tag2 span{
+    position: relative; top: 35%; left: 10%;
+    font-size: 18px; color: white; background-color: royalblue;
+    width: 100%; height: 200px; padding: 20px; padding-left: 30px; padding-right: 30px;
+}
+.tag3{
+    position: relative; top: 54%;
+    width: 100%; height: 90px;
+}
+.tag3 span{
+    position: relative; top: 35%; left: 10%;
+    font-size: 18px; color: white; background-color: royalblue;
+    width: 100%; height: 200px; padding: 20px; padding-left: 30px; padding-right: 30px;
+}
+.tag4{
+    position: relative; top: 76%;
+    width: 100%; height: 90px;
+}
+.tag4 span{
+    position: relative; top: 35%; left: 10%;
+    font-size: 18px; color: white; background-color: royalblue;
+    width: 100%; height: 200px; padding: 20px; padding-left: 30px; padding-right: 30px;
+}
+
+
+
+
+
+/*------------------------------      아이템      ------------------------------*/
+
+.item1{
+    position: relative; top: 8%;
+    width: 100%; height: 460px;
+}
+.item2{
+    position: relative; top: 12%;
+    width: 100%; height: 460px;
+}
+.item3{
+    position: relative; top: 35%;
+    width: 100%; height: 460px;
+}
+.item4{
+    position: relative; top: 39%;
+    width: 100%; height: 460px;
+}
+.item5{
+    position: relative; top: 57%;
+    width: 100%; height: 460px;
+}
+.item6{
+    position: relative; top: 60%;
+    width: 100%; height: 460px;
+}
+.item7{
+    position: relative; top: 79%;
+    width: 100%; height: 460px;
+}
+.item8{
+    position: relative; top: 82.5%;
+    width: 100%; height: 460px;
+}
+
+
+
+
+
+
+
+/*------------------------------      아이템 내용물      ------------------------------*/
+
+.i1box1{
+    position: relative; width: 17%; left: 10%; height: 100%;
+    float: left; overflow: hidden;
+}
+.i1box1N1{position: relative; width: 100%; height: 80%; overflow: hidden}
+.i1box1N2{position: relative; width: 100%; height: 20%; }
+
+.i1box2{
+    position: relative; width: 17%; left: 11.5%; height: 100%;
+    float: left; overflow: hidden
+}
+.i1box2N1{position: relative; width: 100%; height: 80%; overflow: hidden}
+.i1box2N2{position: relative; width: 100%; height: 20%; }
+
+.i1box3{
+    position: relative; width: 17%; left: 12.9%; height: 100%;
+ float: left;overflow: hidden
+}
+.i1box3N1{position: relative; width: 100%; height: 80%; overflow: hidden}
+.i1box3N2{position: relative; width: 100%; height: 20%; }
+
+.i1box4{
+    position: relative; width: 17%; left: 14.3%; height: 100%;
+ overflow: hidden
+}
+.i1box4N1{position: relative; width: 100%; height: 80%;overflow: hidden}
+.i1box4N2{position: relative; width: 100%; height: 20%; }
+
+
+
+/*--*/
+
+
+
+.i2box1{
+    position: relative; width: 17%; left: 10%; height: 100%;
+    float: left; overflow: hidden;
+}
+.i2box1N1{position: relative; width: 100%; height: 80%; overflow: hidden}
+.i2box1N2{position: relative; width: 100%; height: 20%; }
+
+.i2box2{
+    position: relative; width: 17%; left: 11.5%; height: 100%;
+    float: left; overflow: hidden
+}
+.i2box2N1{position: relative; width: 100%; height: 80%; overflow: hidden}
+.i2box2N2{position: relative; width: 100%; height: 20%; }
+
+.i2box3{
+    position: relative; width: 17%; left: 12.9%; height: 100%;
+ float: left;overflow: hidden
+}
+.i2box3N1{position: relative; width: 100%; height: 80%; overflow: hidden}
+.i2box3N2{position: relative; width: 100%; height: 20%; }
+
+.i2box4{
+    position: relative; width: 17%; left: 14.3%; height: 100%;
+ overflow: hidden
+}
+.i2box4N1{position: relative; width: 100%; height: 80%;overflow: hidden}
+.i2box4N2{position: relative; width: 100%; height: 20%; }
+
+
+
+
+/*--*/
+
+
+.i3box1{
+    position: relative; width: 17%; left: 10%; height: 100%;
+    float: left; overflow: hidden;
+}
+.i3box1N1{position: relative; width: 100%; height: 80%; overflow: hidden}
+.i3box1N2{position: relative; width: 100%; height: 20%; }
+
+.i3box2{
+    position: relative; width: 17%; left: 11.5%; height: 100%;
+    float: left; overflow: hidden
+}
+.i3box2N1{position: relative; width: 100%; height: 80%; overflow: hidden}
+.i3box2N2{position: relative; width: 100%; height: 20%; }
+
+.i3box3{
+    position: relative; width: 17%; left: 12.9%; height: 100%;
+ float: left;overflow: hidden
+}
+.i3box3N1{position: relative; width: 100%; height: 80%; overflow: hidden}
+.i3box3N2{position: relative; width: 100%; height: 20%; }
+
+.i3box4{
+    position: relative; width: 17%; left: 14.3%; height: 100%;
+ overflow: hidden
+}
+.i3box4N1{position: relative; width: 100%; height: 80%;overflow: hidden}
+.i3box4N2{position: relative; width: 100%; height: 20%; }
+
+
+/*--*/
+
+
+.i4box1{
+    position: relative; width: 17%; left: 10%; height: 100%;
+    float: left; overflow: hidden;
+}
+.i4box1N1{position: relative; width: 100%; height: 80%; overflow: hidden}
+.i4box1N2{position: relative; width: 100%; height: 20%; }
+
+.i4box2{
+    position: relative; width: 17%; left: 11.5%; height: 100%;
+    float: left; overflow: hidden
+}
+.i4box2N1{position: relative; width: 100%; height: 80%; overflow: hidden}
+.i4box2N2{position: relative; width: 100%; height: 20%; }
+
+.i4box3{
+    position: relative; width: 17%; left: 12.9%; height: 100%;
+ float: left;overflow: hidden
+}
+.i4box3N1{position: relative; width: 100%; height: 80%; overflow: hidden}
+.i4box3N2{position: relative; width: 100%; height: 20%; }
+
+.i4box4{
+    position: relative; width: 17%; left: 14.3%; height: 100%;
+ overflow: hidden
+}
+.i4box4N1{position: relative; width: 100%; height: 80%;overflow: hidden}
+.i4box4N2{position: relative; width: 100%; height: 20%; }
+
+
+
+/*--*/
+
+
+.i5box1{
+    position: relative; width: 17%; left: 10%; height: 100%;
+    float: left; overflow: hidden;
+}
+.i5box1N1{position: relative; width: 100%; height: 80%; overflow: hidden}
+.i5box1N2{position: relative; width: 100%; height: 20%; }
+
+.i5box2{
+    position: relative; width: 17%; left: 11.5%; height: 100%;
+    float: left; overflow: hidden
+}
+.i5box2N1{position: relative; width: 100%; height: 80%; overflow: hidden}
+.i5box2N2{position: relative; width: 100%; height: 20%; }
+
+.i5box3{
+    position: relative; width: 17%; left: 12.9%; height: 100%;
+ float: left;overflow: hidden
+}
+.i5box3N1{position: relative; width: 100%; height: 80%; overflow: hidden}
+.i5box3N2{position: relative; width: 100%; height: 20%; }
+
+.i5box4{
+    position: relative; width: 17%; left: 14.3%; height: 100%;
+ overflow: hidden
+}
+.i5box4N1{position: relative; width: 100%; height: 80%;overflow: hidden}
+.i5box4N2{position: relative; width: 100%; height: 20%; }
+
+
+
+/*--*/
+
+
+.i6box1{
+    position: relative; width: 17%; left: 10%; height: 100%;
+    float: left; overflow: hidden;
+}
+.i6box1N1{position: relative; width: 100%; height: 80%; overflow: hidden}
+.i6box1N2{position: relative; width: 100%; height: 20%; }
+
+.i6box2{
+    position: relative; width: 17%; left: 11.5%; height: 100%;
+    float: left; overflow: hidden
+}
+.i6box2N1{position: relative; width: 100%; height: 80%; overflow: hidden}
+.i6box2N2{position: relative; width: 100%; height: 20%; }
+
+.i6box3{
+    position: relative; width: 17%; left: 12.9%; height: 100%;
+ float: left;overflow: hidden
+}
+.i6box3N1{position: relative; width: 100%; height: 80%; overflow: hidden}
+.i6box3N2{position: relative; width: 100%; height: 20%; }
+
+.i6box4{
+    position: relative; width: 17%; left: 14.3%; height: 100%;
+ overflow: hidden
+}
+.i6box4N1{position: relative; width: 100%; height: 80%;overflow: hidden}
+.i6box4N2{position: relative; width: 100%; height: 20%; }
+
+
+/*--*/
+
+
+.i7box1{
+    position: relative; width: 17%; left: 10%; height: 100%;
+    float: left; overflow: hidden;
+}
+.i7box1N1{position: relative; width: 100%; height: 80%; overflow: hidden}
+.i7box1N2{position: relative; width: 100%; height: 20%; }
+
+.i7box2{
+    position: relative; width: 17%; left: 11.5%; height: 100%;
+    float: left; overflow: hidden
+}
+.i7box2N1{position: relative; width: 100%; height: 80%; overflow: hidden}
+.i7box2N2{position: relative; width: 100%; height: 20%; }
+
+.i7box3{
+    position: relative; width: 17%; left: 12.9%; height: 100%;
+ float: left;overflow: hidden
+}
+.i7box3N1{position: relative; width: 100%; height: 80%; overflow: hidden}
+.i7box3N2{position: relative; width: 100%; height: 20%; }
+
+.i7box4{
+    position: relative; width: 17%; left: 14.3%; height: 100%;
+ overflow: hidden
+}
+.i7box4N1{position: relative; width: 100%; height: 80%;overflow: hidden}
+.i7box4N2{position: relative; width: 100%; height: 20%; }
+
+
+
+/*--*/
+
+
+.i8box1{
+    position: relative; width: 17%; left: 10%; height: 100%;
+    float: left; overflow: hidden;
+}
+.i8box1N1{position: relative; width: 100%; height: 80%; overflow: hidden}
+.i8box1N2{position: relative; width: 100%; height: 20%; }
+
+.i8box2{
+    position: relative; width: 17%; left: 11.5%; height: 100%;
+    float: left; overflow: hidden
+}
+.i8box2N1{position: relative; width: 100%; height: 80%; overflow: hidden}
+.i8box2N2{position: relative; width: 100%; height: 20%; }
+
+.i8box3{
+    position: relative; width: 17%; left: 12.9%; height: 100%;
+ float: left;overflow: hidden
+}
+.i8box3N1{position: relative; width: 100%; height: 80%; overflow: hidden}
+.i8box3N2{position: relative; width: 100%; height: 20%; }
+
+.i8box4{
+    position: relative; width: 17%; left: 14.3%; height: 100%;
+ overflow: hidden
+}
+.i8box4N1{position: relative; width: 100%; height: 80%;overflow: hidden}
+.i8box4N2{position: relative; width: 100%; height: 20%; }
+
+
+
+
+/* .item1 div:nth-child(2){position: relative; margin-left: 20px;}
+.item1 div:nth-child(3){position: relative; margin-left: 20px;}
+.item1 div:nth-child(4){position: relative; margin-left: 20px;} */
+
+
+
+/*------------------------------      이미지      ------------------------------*/
+
+.i1box1N1 img{ position: absolute; width: 240%; left: -69%; height: 100%;}
+.i1box2N1 img{ position: absolute; width: 240%; left: -69%; height: 120%;}
+.i1box3N1 img{ position: absolute; width: 200%; left: -47%; height: 100%;}
+.i1box4N1 img{ position: absolute; width: 240%; left: -72%; height: 100%;}
+
+.i2box1N1 img{ position: absolute; width: 100%; height: 130%; bottom: -17%;}
+.i2box2N1 img{ position: absolute; width: 220%; left: -100%; height: 100%;}
+.i2box3N1 img{ position: absolute; width: 100%; height: 100%;}
+.i2box4N1 img{ position: absolute; width: 240%; left: -70%; height: 100%;}
+
+.i3box1N1 img{ position: absolute; width: 100%; height: 100%;}
+.i3box2N1 img{ position: absolute; width: 100%; height: 120%;}
+.i3box3N1 img{ position: absolute; width: 230%; left: -62%; height: 100%;}
+.i3box4N1 img{ position: absolute; width: 100%; height: 120%; bottom: -13%;}
+
+.i4box1N1 img{ position: absolute; width: -10%; height: 100%; left: -73%;}
+.i4box2N1 img{ position: absolute; width: 300%; left: -100%; height: 130%; top: -13%;}
+.i4box3N1 img{ position: absolute; width: 200%; height: 100%; left: -53%;}
+.i4box4N1 img{ position: absolute; width: -100%; left: -190%; height: 150%;}
+
+.i5box1N1 img{ position: absolute; width: 300%; left: -99%; height: 150%;}
+.i5box2N1 img{ position: absolute; width: -100%; left: -80%; height: -100%; top: -13%;}
+.i5box3N1 img{ position: absolute; width: 300%; height: 250%; left: -103%;}
+.i5box4N1 img{ position: absolute; width: 250%; left: -75%; height: 100%;}
+
+.i6box1N1 img{ position: absolute; width: -10%; height: 100%; left: -73%;}
+.i6box2N1 img{ position: absolute; width: 230%; left: -110%; height: 100%;}
+.i6box3N1 img{ position: absolute; width: -500%; height: 100%; left: -85%;}
+.i6box4N1 img{ position: absolute; width: -100%; left: -125%; height: 150%; top: -50%;}
+
+.i7box1N1 img{position: absolute; width: -100%; left: -190%; height: 150%;}
+.i7box2N1 img{ position: absolute; width: 100%; height: 120%; bottom: -13%;}
+.i7box3N1 img{ position: absolute; width: -10%; height: 100%; left: -73%;}
+.i7box4N1 img{ position: absolute; width: 200%; height: 100%; left: -53%;}
+
+.i8box1N1 img{ position: absolute; width: -10%; height: 100%; left: -73%;}
+.i8box2N1 img{ position: absolute; width: 300%; left: -100%; height: 130%; top: -13%;}
+.i8box3N1 img{ position: absolute; width: 240%; left: -69%; height: 100%;}
+.i8box4N1 img{ position: absolute; width: 300%; left: -100%; height: 130%; top: -13%;}
+
+
+
+
+
+
+/*------------------------------      텍스트 박스      ------------------------------*/
+
+.i1box1N2{background-color: white; opacity: 0.9;}
+.i1box2N2{background-color: white; opacity: 0.9;}
+.i1box3N2{background-color: white; opacity: 0.9;}
+.i1box4N2{background-color: white; opacity: 0.9;}
+
+
+.i2box1N2{background-color: white; opacity: 0.9;}
+.i2box2N2{background-color: white; opacity: 0.9;}
+.i2box3N2{background-color: white; opacity: 0.9;}
+.i2box4N2{background-color: white; opacity: 0.9;}
+
+
+
+.i3box1N2{background-color: white; opacity: 0.9;}
+.i3box2N2{background-color: white; opacity: 0.9;}
+.i3box3N2{background-color: white; opacity: 0.9;}
+.i3box4N2{background-color: white; opacity: 0.9;}
+
+.i4box1N2{background-color: white; opacity: 0.9;}
+.i4box2N2{background-color: white; opacity: 0.9;}
+.i4box3N2{background-color: white; opacity: 0.9;}
+.i4box4N2{background-color: white; opacity: 0.9;}
+
+.i5box1N2{background-color: white; opacity: 0.9;}
+.i5box2N2{background-color: white; opacity: 0.9;}
+.i5box3N2{background-color: white; opacity: 0.9;}
+.i5box4N2{background-color: white; opacity: 0.9;}
+
+.i6box1N2{background-color: white; opacity: 0.9;}
+.i6box2N2{background-color: white; opacity: 0.9;}
+.i6box3N2{background-color: white; opacity: 0.9;}
+.i6box4N2{background-color: white; opacity: 0.9;}
+
+.i7box1N2{background-color: white; opacity: 0.9;}
+.i7box2N2{background-color: white; opacity: 0.9;}
+.i7box3N2{background-color: white; opacity: 0.9;}
+.i7box4N2{background-color: white; opacity: 0.9;}
+
+
+.i8box1N2{background-color: white; opacity: 0.9;}
+.i8box2N2{background-color: white; opacity: 0.9;}
+.i8box3N2{background-color: white; opacity: 0.9;}
+.i8box4N2{background-color: white; opacity: 0.9;}
+
+
+
+/*------------------------------      텍스트      ------------------------------*/
+
+
+.i1box1N2 span:nth-child(1){position: absolute; top: 10px; left: 15px; font-size: 18px;}
+.i1box1N2 span:nth-child(2){position: absolute; top: 40px; right: 20px; font-size: 25px; font-weight: bolder;}
+
+.i1box2N2 span:nth-child(1){position: absolute;  top: 10px; left: 15px; font-size: 18px;}
+.i1box2N2 span:nth-child(2){position: absolute; top: 40px; right: 20px; font-size: 25px; font-weight: bolder;}
+
+.i1box3N2 span:nth-child(1){position: absolute;  top: 10px; left: 15px; font-size: 18px;}
+.i1box3N2 span:nth-child(2){position: absolute; top: 40px; right: 20px; font-size: 25px; font-weight: bolder;}
+
+.i1box4N2 span:nth-child(1){position: absolute;  top: 10px; left: 15px; font-size: 18px;}
+.i1box4N2 span:nth-child(2){position: absolute; top: 40px; right: 20px; font-size: 25px; font-weight: bolder;}
+
+/*--*/
+
+.i2box1N2 span:nth-child(1){position: absolute; top: 10px; left: 15px; font-size: 18px;}
+.i2box1N2 span:nth-child(2){position: absolute; top: 40px; right: 20px; font-size: 25px; font-weight: bolder;}
+
+.i2box2N2 span:nth-child(1){position: absolute;  top: 10px; left: 15px; font-size: 18px;}
+.i2box2N2 span:nth-child(2){position: absolute; top: 40px; right: 20px; font-size: 25px; font-weight: bolder;}
+
+.i2box3N2 span:nth-child(1){position: absolute;  top: 10px; left: 15px; font-size: 18px;}
+.i2box3N2 span:nth-child(2){position: absolute; top: 40px; right: 20px; font-size: 25px; font-weight: bolder;}
+
+.i2box4N2 span:nth-child(1){position: absolute;  top: 10px; left: 15px; font-size: 18px;}
+.i2box4N2 span:nth-child(2){position: absolute; top: 40px; right: 20px; font-size: 25px; font-weight: bolder;}
+
+
+/*--*/
+
+.i3box1N2 span:nth-child(1){position: absolute; top: 10px; left: 15px; font-size: 18px;}
+.i3box1N2 span:nth-child(2){position: absolute; top: 40px; right: 20px; font-size: 25px; font-weight: bolder;}
+
+.i3box2N2 span:nth-child(1){position: absolute;  top: 10px; left: 15px; font-size: 18px;}
+.i3box2N2 span:nth-child(2){position: absolute; top: 40px; right: 20px; font-size: 25px; font-weight: bolder;}
+
+.i3box3N2 span:nth-child(1){position: absolute;  top: 10px; left: 15px; font-size: 18px;}
+.i3box3N2 span:nth-child(2){position: absolute; top: 40px; right: 20px; font-size: 25px; font-weight: bolder;}
+
+.i3box4N2 span:nth-child(1){position: absolute;  top: 10px; left: 15px; font-size: 18px;}
+.i3box4N2 span:nth-child(2){position: absolute; top: 40px; right: 20px; font-size: 25px; font-weight: bolder;}
+
+
+/*--*/
+
+.i4box1N2 span:nth-child(1){position: absolute; top: 10px; left: 15px; font-size: 18px;}
+.i4box1N2 span:nth-child(2){position: absolute; top: 40px; right: 20px; font-size: 25px; font-weight: bolder;}
+
+.i4box2N2 span:nth-child(1){position: absolute;  top: 10px; left: 15px; font-size: 18px;}
+.i4box2N2 span:nth-child(2){position: absolute; top: 40px; right: 20px; font-size: 25px; font-weight: bolder;}
+
+.i4box3N2 span:nth-child(1){position: absolute;  top: 10px; left: 13px; font-size: 18px;}
+.i4box3N2 span:nth-child(2){position: absolute; top: 40px; right: 20px; font-size: 25px; font-weight: bolder;}
+
+.i4box4N2 span:nth-child(1){position: absolute;  top: 10px; left: 15px; font-size: 18px;}
+.i4box4N2 span:nth-child(2){position: absolute; top: 40px; right: 20px; font-size: 25px; font-weight: bolder;}
+
+
+/*--*/
+
+.i5box1N2 span:nth-child(1){position: absolute; top: 10px; left: 15px; font-size: 18px;}
+.i5box1N2 span:nth-child(2){position: absolute; top: 40px; right: 20px; font-size: 25px; font-weight: bolder;}
+.i5box1N2 a{position: absolute; top: 50px; left: 15px; text-decoration: none; color: black;}
+
+.i5box2N2 span:nth-child(1){position: absolute;  top: 10px; left: 15px; font-size: 18px;}
+.i5box2N2 span:nth-child(2){position: absolute; top: 40px; right: 20px; font-size: 25px; font-weight: bolder;}
+
+.i5box3N2 span:nth-child(1){position: absolute;  top: 10px; left: 15px; font-size: 18px;}
+.i5box3N2 span:nth-child(2){position: absolute; top: 40px; right: 20px; font-size: 25px; font-weight: bolder;}
+
+.i5box4N2 span:nth-child(1){position: absolute;  top: 10px; left: 15px; font-size: 18px;}
+.i5box4N2 span:nth-child(2){position: absolute; top: 40px; right: 20px; font-size: 25px; font-weight: bolder;}
+
+
+/*--*/
+
+.i6box1N2 span:nth-child(1){position: absolute; top: 10px; left: 15px; font-size: 18px;}
+.i6box1N2 span:nth-child(2){position: absolute; top: 40px; right: 20px; font-size: 25px; font-weight: bolder;}
+
+.i6box2N2 span:nth-child(1){position: absolute;  top: 10px; left: 15px; font-size: 15px;}
+.i6box2N2 span:nth-child(2){position: absolute; top: 50px; right: 20px; font-size: 23px; font-weight: bolder;}
+
+.i6box3N2 span:nth-child(1){position: absolute;  top: 10px; left: 15px; font-size: 18px;}
+.i6box3N2 span:nth-child(2){position: absolute; top: 40px; right: 20px; font-size: 25px; font-weight: bolder;}
+
+.i6box4N2 span:nth-child(1){position: absolute;  top: 10px; left: 15px; font-size: 18px;}
+.i6box4N2 span:nth-child(2){position: absolute; top: 40px; right: 20px; font-size: 25px; font-weight: bolder;}
+
+/*--*/
+
+.i7box1N2 span:nth-child(1){position: absolute; top: 10px; left: 15px; font-size: 18px;}
+.i7box1N2 span:nth-child(2){position: absolute; top: 40px; right: 20px; font-size: 25px; font-weight: bolder;}
+
+.i7box2N2 span:nth-child(1){position: absolute;  top: 10px; left: 15px; font-size: 18px;}
+.i7box2N2 span:nth-child(2){position: absolute; top: 40px; right: 20px; font-size: 25px; font-weight: bolder;}
+
+.i7box3N2 span:nth-child(1){position: absolute;  top: 10px; left: 15px; font-size: 18px;}
+.i7box3N2 span:nth-child(2){position: absolute; top: 40px; right: 20px; font-size: 25px; font-weight: bolder;}
+
+.i7box4N2 span:nth-child(1){position: absolute;  top: 10px; left: 15px; font-size: 18px;}
+.i7box4N2 span:nth-child(2){position: absolute; top: 40px; right: 20px; font-size: 25px; font-weight: bolder;}
+
+/*--*/
+
+.i8box1N2 span:nth-child(1){position: absolute; top: 10px; left: 15px; font-size: 18px;}
+.i8box1N2 span:nth-child(2){position: absolute; top: 40px; right: 20px; font-size: 25px; font-weight: bolder;}
+
+.i8box2N2 span:nth-child(1){position: absolute;  top: 10px; left: 15px; font-size: 18px;}
+.i8box2N2 span:nth-child(2){position: absolute; top: 40px; right: 20px; font-size: 25px; font-weight: bolder;}
+
+.i8box3N2 span:nth-child(1){position: absolute;  top: 10px; left: 15px; font-size: 18px;}
+.i8box3N2 span:nth-child(2){position: absolute; top: 40px; right: 20px; font-size: 25px; font-weight: bolder;}
+
+.i8box4N2 span:nth-child(1){position: absolute;  top: 10px; left: 15px; font-size: 18px;}
+.i8box4N2 span:nth-child(2){position: absolute; top: 40px; right: 20px; font-size: 25px; font-weight: bolder;}
+
+
+
+.item1 a{color: black;}
+.item2 a{color: black;}
+.item3 a{color: black;}
+.item4 a{color: black;}
+.item5 a{color: black;}
+.item6 a{color: black;}
+.item7 a{color: black;}
+.item8 a{color: black;}
+
+
+
+
+/*------------------------------      아이템 호버      ------------------------------*/
+
+.i1box1:hover{transform: scale(1.03); transition: 0.3s;}
+.i1box2:hover{transform: scale(1.03); transition: 0.3s;}
+.i1box3:hover{transform: scale(1.03); transition: 0.3s;}
+.i1box4:hover{transform: scale(1.03); transition: 0.3s;}
+
+.i2box1:hover{transform: scale(1.03); transition: 0.3s;}
+.i2box2:hover{transform: scale(1.03); transition: 0.3s;}
+.i2box3:hover{transform: scale(1.03); transition: 0.3s;}
+.i2box4:hover{transform: scale(1.03); transition: 0.3s;}
+
+.i3box1:hover{transform: scale(1.03); transition: 0.3s;}
+.i3box2:hover{transform: scale(1.03); transition: 0.3s;}
+.i3box3:hover{transform: scale(1.03); transition: 0.3s;}
+.i3box4:hover{transform: scale(1.03); transition: 0.3s;}
+
+.i4box1:hover{transform: scale(1.03); transition: 0.3s;}
+.i4box2:hover{transform: scale(1.03); transition: 0.3s;}
+.i4box3:hover{transform: scale(1.03); transition: 0.3s;}
+.i4box4:hover{transform: scale(1.03); transition: 0.3s;}
+
+.i5box1:hover{transform: scale(1.03); transition: 0.3s;}
+.i5box2:hover{transform: scale(1.03); transition: 0.3s;}
+.i5box3:hover{transform: scale(1.03); transition: 0.3s;}
+.i5box4:hover{transform: scale(1.03); transition: 0.3s;}
+
+.i6box1:hover{transform: scale(1.03); transition: 0.3s;}
+.i6box2:hover{transform: scale(1.03); transition: 0.3s;}
+.i6box3:hover{transform: scale(1.03); transition: 0.3s;}
+.i6box4:hover{transform: scale(1.03); transition: 0.3s;}
+
+.i7box1:hover{transform: scale(1.03); transition: 0.3s;}
+.i7box2:hover{transform: scale(1.03); transition: 0.3s;}
+.i7box3:hover{transform: scale(1.03); transition: 0.3s;}
+.i7box4:hover{transform: scale(1.03); transition: 0.3s;}
+
+.i8box1:hover{transform: scale(1.03); transition: 0.3s;}
+.i8box2:hover{transform: scale(1.03); transition: 0.3s;}
+.i8box3:hover{transform: scale(1.03); transition: 0.3s;}
+.i8box4:hover{transform: scale(1.03); transition: 0.3s;}
+
+
+
+
+
+/*------------------------------      푸터      ------------------------------*/
+.footer{
+    position: relative; top: 100%;
+    width: 85%; height: 100px; left: 5.555555;
+}
+
+
+
+
+
+
+/**/

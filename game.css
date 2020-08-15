@@ -1,0 +1,474 @@
+
+html{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    overflow: hidden;
+    background-color: black;
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+
+/*-----벡그라운드 비디오------*/
+
+
+.wowV{
+    position: absolute; left: -25%; top: -20%;
+    z-index: -3;
+    width: 150%; height: 150%;
+    opacity: 0.4;
+    display: block;
+}
+.wowO{
+    position: absolute; left: -25%; top: -20%;
+    z-index: -3;
+    width: 150%; height: 150%;
+    opacity: 0.4;
+    display: none;
+}
+.wowS{
+    position: absolute; left: -25%; top: -20%;
+    z-index: -3;
+    width: 150%; height: 150%;
+    opacity: 0.4;
+    display: none;
+}
+.wowH{
+    position: absolute; left: -25%; top: -20%;
+    z-index: -3;
+    width: 150%; height: 150%;
+    opacity: 0.4;
+    display: none;
+}
+.wowD{
+    position: absolute; left: -25%; top: -20%;
+    z-index: -3;
+    width: 150%; height: 150%;
+    opacity: 0.4;
+    display: none;
+}
+
+
+/*-----------------*/
+
+
+
+body div div ul li{
+    list-style-type: none;
+}
+body div div ul li a{
+    text-decoration: none;
+    color: white;
+    opacity: 0.6;
+}
+#MainC1{
+    width: 15%;
+    height: 100%;
+    /* background-color: lightslategray; */
+    float: left;
+}
+.graymenu{
+    z-index: -1;
+    position: fixed;
+    width: 15%;
+    height: 100%;
+    /* background: gray; */
+    opacity: 0.6;
+}
+.logo{
+    z-index: 6;
+    width: 8rem;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+body div div ul{
+    float: left;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+#MainC1 a{z-index: 10;}
+
+.ul1{
+    position: relative;
+    z-index: 6;
+    margin: 0 auto;
+    width: 100%;
+    font-size: 32px;
+    font-family: 'Russo One', sans-serif;
+    line-height: 78px;
+    margin-top: 50%;
+    letter-spacing: 2px;
+}
+
+.ul101{
+    z-index: 6;
+    position: relative;
+    margin: 0 auto;
+    width: 100%; top: 96px;
+    font-size: 20px;
+    line-height: 45px;
+    letter-spacing: 2px;
+}
+/* 효과 */
+.ul1 li:hover{
+    transition: 0.4s;}
+.ul1 li a:hover{
+    transition: 0.4s;
+    color: white;
+
+    opacity: 1;
+}
+.ul2 li a:hover{
+    transition: 0.4s;
+    color: white;
+
+    opacity: 1;
+}
+.ul101 li:hover{
+    transition: 0.4s;
+    color: white;
+    opacity: 1;
+}
+.ul101 li a:hover{
+    transition: 0.4s;
+    color: white;
+    opacity: 1;
+}
+.ul1 li a{
+    padding-left: 30%; padding-right: 30%; padding-top: 20px; padding-bottom: 20px;
+}
+.ul101 li a{
+    padding-left: 30%; padding-right: 30%; padding-top: 20px; padding-bottom: 20px;
+}
+.ul2{
+    z-index: 6;
+    width: 15%;
+    position: absolute; left: 0; bottom: 10%;
+     text-align: center; 
+}
+.ul2 li{
+    /* z-index: 6; */
+    font-size: 20px;
+}
+.ul2 li:nth-child(2){position: relative; top: 18px;}
+
+
+/*가로로 스크롤 */
+
+
+#MainC2{
+    position: absolute;
+    left: 15%;
+    width: 86%;
+    height: 100%;
+}
+
+
+
+
+/*  메뉴 효과 */
+.ul1 li:hover{
+    transition: 0.4s;
+    /* background-color: white; */
+}
+.ul2 li:hover{
+    transition: 0.4s;
+    /* background-color: white; */
+}
+
+
+
+
+
+
+/* --------- 백그라운드 이미지 -------------*/
+
+
+
+.box01{
+    position: relative;
+    width: 100%; height: 100%; 
+}
+.boxbgi{
+    position: relative;
+    width: 100%; height: 100%;
+}
+
+
+
+
+/*--------------- 호버 시 선명한 이미지 박스 ----------------------*/
+
+.box021{
+    z-index: 10;
+    position: absolute; right: 5%;
+    width: 13%; height: 100%;
+    transform: skew(0deg);
+    float: left;
+    /* overflow: hidden; */
+}
+.box021 ul li{
+    position: relative; right: 16%;
+    /* border: 1px solid blue; */
+    width: 130%; height: 20%;
+}
+
+.box021 ul{
+    position: relative;
+    width: 100%; height: 100%; left: 15%;
+}
+.box021 img{
+    width: 60%; padding-top: 20%;
+}
+.img003{
+    position: relative;
+    top: 20px;
+}
+
+
+
+
+
+/*------- 아이콘 ul -------*/
+.box01{
+    position: absolute; right: 1%;
+    width: 17%; height: 100%;
+    /* background-color: darkgray; */
+    transform: skew(0deg);
+    float: left;
+    opacity: 0.6;
+    /* overflow: hidden; */
+}
+
+
+/*---------- 아이콘 이미지 박스 ---------------*/
+.box03{
+    z-index: 9;
+    position: absolute; right: 5%;
+    width: 13%; height: 100%;
+    transform: skew(0deg);
+    float: left;
+    /* overflow: hidden; */
+}
+.box03 ul li{
+    position: relative; right: 16%;
+    /* border: 1px solid blue; */
+    width: 130%; height: 20%;
+}
+
+.box03 ul{
+    position: relative;
+    width: 100%; height: 100%; left: 15%;
+}
+.box03 img{
+    width: 60%; padding-top: 20%;
+}
+.img003{
+    position: relative;
+    top: 20px;
+}
+
+
+
+/*------- 회색 ul 박스 -------*/
+.box02{
+    position: absolute; right: 0%;
+    width: 18%; height: 100%;
+    transform: skew(0deg);
+    float: left;
+    /* overflow: hidden; */
+}
+.box02 ul a li{
+    position: relative;
+    /* border: 1px solid black; */
+    width: 100%; height: 20%;
+}
+.box02 ul{
+    position: relative;
+    width: 100%; height: 100%;
+}
+.box02 img{
+    width: 80%; padding-top: 25%;
+}
+
+
+/*------- 내용 검은 상자 -------*/
+.iiimg{position: absolute; width: 82%; height: 100%; z-index: -1; float: left; opacity: 1;}
+
+
+/*------- 아이콘 검은 상자 -------*/
+.box21{background-color: white;opacity: 0.6; display: none;}
+.box22{background-color: white;opacity: 0.6; display: none;}
+.box23{background-color: white;opacity: 0.6; display: none;}
+.box24{background-color: white;opacity: 0.6; display: none;}
+.box25{background-color: white;opacity: 0.6; display: none;}
+
+/*------- 박스 호버 -------*/
+.box0211:hover{background-color: white; opacity: 0.3;}
+.box0212:hover{background-color: white; opacity: 0.3;}
+.box0213:hover{background-color: white; opacity: 0.3;}
+.box0214:hover{background-color: white; opacity: 0.3;}
+.box0215:hover{background-color: white; opacity: 0.3;}
+
+
+/*---------------------------------------------------------------*/
+
+
+
+
+
+/*----------------- 큰 검은 박스 내용물 ------------------------*/
+/* width: 82%;  */
+.box05backC02{
+    position: relative; z-index: 4;
+    width: 82%; height: 100%;
+    /* background-color: antiquewhite; */
+    float: left; 
+    display: block;
+}
+
+/*-----박스 크기----*/
+.box05backC02 article{
+    position: relative; top: 20%; left: -20%;
+    width: 100%; height: 50%;
+    /* border: 1px solid pink; */
+    text-align: center;
+}
+
+.box05backC03{
+    position: relative; z-index: 4;
+    width: 82%; height: 100%;
+    /* background-color: antiquewhite; */
+    float: left;
+    display: none;
+
+}
+
+.box05backC03 article{
+    position: relative; top: 22%; left: -20%;
+    width: 100%; height: 50%;
+    /* border: 1px solid pink; */
+    text-align: center;
+}
+
+.box05backC04{
+    position: relative; z-index: 4;
+    width: 82%; height: 100%;
+    /* background-color: antiquewhite; */
+    float: left;
+    display: none;
+
+}
+
+
+.box05backC04 article{
+    position: relative; top: 22%; left: -20%;
+    width: 100%; height: 50%;
+    /* border: 1px solid pink; */
+    text-align: center;
+}
+
+.box05backC05{
+    position: relative; z-index: 4; top: -2%;
+    width: 82%; height: 100%;
+    /* background-color: antiquewhite; */
+    float: left;
+    display: none;
+}
+.box05backC05 article{
+    position: relative; top: 22%; left: -20%;
+    width: 100%; height: 50%;
+    /* border: 1px solid pink; */
+    text-align: center;
+}
+
+
+
+.box05backC06{
+    position: relative; z-index: 4; top: -2%;
+    width: 82%; height: 100%;
+    /* background-color: antiquewhite; */
+    float: left;
+    display: none;
+}
+.box05backC06 article{
+    position: relative; top: 22%; left: -20%;
+    width: 100%; height: 50%;
+    /* border: 1px solid pink; */
+    text-align: center;
+}
+
+/*----박스 내용물----*/
+.box05backC02 h1, h3 { padding: 0; margin: 0; text-align: center;}
+.box05backC02 h1{position: relative; font-size: 70px; letter-spacing: 2px; color: goldenrod;}
+.box05backC02 h3{position: relative; font-size: 25px; letter-spacing: 2px; font-weight: 500; color: goldenrod;}
+
+
+
+
+/*----------캐릭터-----------  */
+.iiimg img:nth-child(1){
+    position: absolute; top: -5%; right: -58%;
+    width: 160%; 
+    display: block;
+}
+.iiimg img:nth-child(2){
+    position: absolute;
+    width: 60%;
+    left: 46%; top: 15%;
+    display: none;
+}
+.iiimg img:nth-child(3){
+    position: absolute;
+    width: 75%;
+    left: 52%; top: 10%;
+    display: none;
+}
+.iiimg img:nth-child(4){
+    position: absolute;
+    width: 120%;
+    left: 1%; top: -10%;
+    display: none;
+}
+.iiimg img:nth-child(5){
+    position: absolute;
+    width: 62%;
+    left: 46%; top: 0%;
+    display: none;
+}
+
+/*----------텍스트-----------  */
+.box05backC02 span{color:#FFB000; font-size: 90px; font-family: 'New Rocker', cursive;}
+.box05backC02 span:nth-child(2){font-size: 40px;}
+.box05backC02 img{position: absolute; width: 30%; height: 40%; left: 36%; top: 10%;}
+.p1{position: absolute; color: #cabda0; font-size: 22px; left: 25%; top: 34%; font-family: 'Do Hyeon', sans-serif;}
+.p2{position: absolute; color: #cabda0; font-size: 22px; left: 40.5%; top: 99%; line-height: 33px; font-family: 'Do Hyeon', sans-serif;}
+
+.box05backC03 span{font-size: 90px; font-family: 'Black Ops One', cursive;}
+.box05backC03 img{position: absolute; width: 30%; height: 40%; left: 36%; top: 10%;}
+.p3{position: absolute; color: #e6dede; font-size: 30px; left: 36%; top: 34%; line-height: 40px; font-family: 'Do Hyeon', sans-serif;}
+
+.box05backC04 span{font-size: 110px; font-family: 'Jockey One', sans-serif; color: #cb40ff; letter-spacing: 8px;}
+.box05backC04 img{position: absolute; width: 30%; height: 40%; left: 34%; top: 16%;}
+.p4{position: absolute; color: #f8e9fd; font-size: 26px; left: 23%; top: 40%; line-height: 40px; font-family: 'Do Hyeon', sans-serif;}
+
+.box05backC05 span{font-size: 110px; font-family: 'Acme', sans-serif; color: #cb40ff; letter-spacing: 8px;}
+.box05backC05 img{position: absolute; width: 30%; height: 40%; left: 34%; top: 13%;}
+.p5{position: absolute; color: #eeeeee; font-size: 26px; left: 33%; top: 40%; line-height: 40px; font-family: 'Do Hyeon', sans-serif;}
+
+.box05backC06 span{font-size: 115px; font-family: 'Acme', sans-serif; color: #d50000; letter-spacing: 8px;}
+.box05backC06 img{position: absolute; width: 30%; height: 40%; left: 34%; top: 13%;}
+.p6{position: absolute; color: #e1c8c8; font-size: 26px; left: 27%; top: 37%; line-height: 40px; font-family: 'Do Hyeon', sans-serif;}
